@@ -3,5 +3,5 @@ class Wesnoth < Cask
   homepage 'http://www.wesnoth.org/'
   version '1.10.7'
   sha1 '86489a4af7b243c0aa06788387f4b1c5db7cc240'
-  link 'Battle for Wesnoth.app'
+  link 'Wesnoth.app'
 end
