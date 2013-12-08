@@ -1,7 +1,7 @@
 class Brackets < Cask
-  url 'https://github.com/adobe/brackets/releases/download/v34.10534/Brackets.Sprint.34.10655.dmg'
+  url 'http://download.brackets.io/file.cfm?platform=OSX&build=34'
   homepage 'http://brackets.io/'
-  version 'v34.10534'
-  sha1 '1ab374a17a3bbe61785a04698cbac54d41fc7dad'
+  version 'v34'
+  sha1 '85f2c3ec31a073d58c0214c6ddf84297d27dfae6'
   link 'Brackets.app'
 end
