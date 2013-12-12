@@ -2,17 +2,17 @@ require 'formula'
 
 class Serf < Formula
   homepage 'http://www.serfdom.io'
-  version '0.2.1'
+  version '0.3.0'
 
-  if Hardware.is_64_bit?
-    url 'https://dl.bintray.com/mitchellh/serf/0.2.1_darwin_amd64.zip'
-    sha256 'e6cf1d071431efbfcfdc9dab19cef17df6703b692022892ef469796410ff3cfb'
+  if MacOS.prefer_64_bit?
+    url 'https://dl.bintray.com/mitchellh/serf/0.3.0_darwin_amd64.zip'
+    sha256 'd0f26a2344ad1b0357ddfe7074350aab4bbe4b7f36ec6b3cda96b07c6490bd36'
   else
-    url 'https://dl.bintray.com/mitchellh/serf/0.2.1_darwin_386.zip'
-    sha256 'ebd6f8f66ed10b43a7db469d2310fcbf253cd9c08b7e61bec4155cddc383c0bd'
+    url 'https://dl.bintray.com/mitchellh/serf/0.3.0_darwin_386.zip'
+    sha256 '4e31c39abd8d807e821f67ca01e77a59c3fda016fd88dd9e64505b9791df6f89'
   end
 
   def install
-    bin.install Dir['*']
+    bin.install 'serf'
   end
 end
