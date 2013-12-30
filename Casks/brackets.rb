@@ -1,7 +1,7 @@
 class Brackets < Cask
-  url 'http://download.brackets.io/file.cfm?platform=OSX&build=34'
+  url 'http://download.brackets.io/file.cfm?platform=OSX&build=35'
   homepage 'http://brackets.io/'
-  version 'v34'
-  sha1 '85f2c3ec31a073d58c0214c6ddf84297d27dfae6'
+  version 'v35'
+  sha1 'b5387f9eb741da1d201b1c879e04a49d1d39f429'
   link 'Brackets.app'
 end
