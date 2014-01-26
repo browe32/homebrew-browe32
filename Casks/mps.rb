@@ -1,7 +1,7 @@
 class Mps < Cask
-  url 'https://download.jetbrains.com/mps/30/MPS-3.0.2-macos.dmg'
+  url 'http://download.jetbrains.com/mps/30/MPS-3.0.3-macos.dmg'
   homepage 'http://www.jetbrains.com/mps/'
-  version '3.0.2'
-  sha256 'cd6459e8408eebf5b295cad5d7b3fa718b3f8f82e4f91a8df0f6fb17182196b2'
+  version '3.0.3'
+  sha256 'cfedfccef3e4bf5af95fba11a634a3c471e36cf195e66e1568e00e2d192b8562'
   link 'MPS 3.0.app'
 end
